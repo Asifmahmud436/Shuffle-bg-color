@@ -16,3 +16,6 @@ function startShuffle(){
     intervalId = setInterval(changeColor,1000)
 }    
 
+function endShuffle(){
+    clearInterval(intervalId)
+}
